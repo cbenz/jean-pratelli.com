@@ -1,0 +1,37 @@
+body {
+  font-family:
+    Palatino,
+    Georgia,
+    serif;
+  line-height: 1.5;
+  margin: 0;
+  color: #111;
+  background-color: #F1F2F1;
+}
+
+a { color: #009246 }
+
+p {
+  font-size: 1.125rem;
+}
+
+.sans { font-family: sans-serif }
+.mono { font-family: monospace }
+
+.h0 {
+  font-size: 3rem;
+  line-height: 1;
+}
+@media screen and (min-width: 37.5em) {
+  .h0 { font-size: 5vw }
+}
+
+.black { color: #111 }
+.white { color: #fff }
+.gray  { color: #777 }
+.green   { color: #009246 }
+
+.bg-black { background-color: #111 }
+.bg-white { background-color: #fff }
+.bg-gray  { background-color: #777 }
+.bg-green   { background-color: #009246 }
